@@ -1,0 +1,33 @@
+# Rust build files
+/target/
+**/*.rs.bk
+
+# Model files
+/models/*.onnx
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS files
+.DS_Store
+
+# Environment files
+.env
+
+# VSCode & IDE stuff
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage reports and artifacts
+/tarpaulin-report.html
+*.profraw
+*.profdata
+
+# Test outputs and debug files
+/debug/
+/out/
+/dist/
