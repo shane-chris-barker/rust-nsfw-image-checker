@@ -1,7 +1,7 @@
 # NSFW Image Checker (Rust)
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
-A lightweight REST API server written in Rust to classify images for NSFW content using a pre-trained ONNX model.
+A lightweight REST API server written in Rust that uses the [nsfw crate](https://github.com/Fyko/nsfw) and a pre-trained ONNX model to return scores in a json response.
 
 This project is my **first hands-on experience with Rust**, built as a learning exercise and as a practical tool for image moderation. Feedback is very welcome!
 
@@ -9,10 +9,9 @@ This project is my **first hands-on experience with Rust**, built as a learning 
 
 ## 🚀 Features
 
-* 🔍 Detects NSFW content in user-supplied images
+* 🔍 Uses the [nsfw crate](https://github.com/Fyko/nsfw) and provided ONNX model to detect NSFW content in user-supplied images
 * 🧠 Powered by ONNX Runtime and a robust pre-trained classifier
 * ✅ Exposes simple `/ping` and `/classify` endpoints
-* ⚙️ Clean architecture with modular structure
 * 🎯 Built-in integration tests
 
 ---
@@ -118,8 +117,7 @@ cargo test
 
 ## 😍 Thanks
 
-* This project uses the [nsfw crate](https://github.com/Fyko/nsfw) by [@fyko](https://github.com/Fyko). Many thanks to Fyko for making this library available!
-* [@iola1999](https://github.com/iola1999) for the ONNX model.
+* This project uses the [nsfw crate](https://github.com/Fyko/nsfw) by [@fyko](https://github.com/Fyko). Many thanks to Fyko for making this library and the ONNX file available!
 * The __Rust community__ and documentation for being excellent
 * [ChatGPT](https://openai.com/chatgpt) for helping me to learn the basics of Rust and how to translate my knowledge from PHP. 
 
