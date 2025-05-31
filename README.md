@@ -118,7 +118,8 @@ cargo test
 
 ## 😍 Thanks
 
-* [iola1999/nsfw-detect-onnx](https://github.com/iola1999/nsfw-detect-onnx) for the ONNX model
+* This project uses the [nsfw crate](https://github.com/Fyko/nsfw) by [@fyko](https://github.com/Fyko). Many thanks to Fyko for making this library available!
+* [@iola1999](https://github.com/iola1999) for the ONNX model.
 * The __Rust community__ and documentation for being excellent
 * [ChatGPT](https://openai.com/chatgpt) for helping me to learn the basics of Rust and how to translate my knowledge from PHP. 
 
