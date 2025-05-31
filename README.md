@@ -96,11 +96,11 @@ curl -X POST http://localhost:3000/classify \
 
 ```json
 {
-  "porn_score": :0.98313576,
+  "porn_score": 0.98313576,
   "sexy_score": 0.006444183,
   "hentai_score": 0.010374044,
   "neutral_score": 0.000044660992,
-  "drawing_score": :0.0000013174929
+  "drawing_score": 0.0000013174929
 }
 ```
 
